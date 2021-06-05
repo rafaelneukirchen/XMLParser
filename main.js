@@ -1,7 +1,7 @@
 let changer = document.querySelector("p#changer");
 let input = document.querySelector(".wrapper-textarea");
 if(input){
-    input.addEventListener("change", (e) => {
+    input.addEventListener("input", (e) => {
         let text = e.target.value;
         let domParser = new DOMParser();
         let dom = domParser.parseFromString(text, "text/xml");
