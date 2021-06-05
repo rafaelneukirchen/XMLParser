@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.wrapper-labels {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper-textarea {
+    margin-top: 8px;
+    min-height: 120px;
+    max-height: 300px;
+    height: 120px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ededed;
+    padding: 16px 0;
+    font-size: 16px;
+}
+
+#changer {
+    text-align: center;
+}
